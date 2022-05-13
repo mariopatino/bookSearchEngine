@@ -46,7 +46,6 @@ module.exports = {
   // user comes from `req.user` created in the auth middleware function
   async saveBook({ user, body }, res) {
     console.log(user);
-    console.log(body);
     try {
       const updatedUser = await User.findOneAndUpdate(
         { _id: user._id },
@@ -59,7 +58,7 @@ module.exports = {
       return res.status(400).json(err);
     }
   },
-  // delete a book from `savedBooks`
+  // remove a book from `savedBooks`
   async deleteBook({ user, params }, res) {
     const updatedUser = await User.findOneAndUpdate(
       { _id: user._id },
