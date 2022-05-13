@@ -94,7 +94,7 @@ Some other steps I was requeired to follow
 
 
 
-## Usage & [Deployed Application](https://booksearchengine-mp.herokuapp.com/ /)
+## Usage & [Deployed Application](https://shrouded-forest-18932.herokuapp.com/)
 
 I deployed the application in Heroku: https://booksearchengine-mp.herokuapp.com/ 
 
