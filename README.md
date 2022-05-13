@@ -96,7 +96,7 @@ Some other steps I was requeired to follow
 
 ## Usage & [Deployed Application](https://shrouded-forest-18932.herokuapp.com/)
 
-I deployed the application in Heroku: https://booksearchengine-mp.herokuapp.com/ 
+I deployed the application in Heroku: https://shrouded-forest-18932.herokuapp.com/ 
 
 ## Conclusions
 Refactoring a code to use GraphQL was fun and it was really educational, this is a excellent work to undestand the differences using GraphQL, it also reduce the code, not in a significat way but any line count in coding.
